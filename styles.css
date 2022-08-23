@@ -2,6 +2,8 @@
 body{
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 a{
@@ -13,9 +15,17 @@ a{
 .nav-links{
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 25px;
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+.plane-img{
+  width: 250px;
+}
 
 /* ID SELECTORS */
 #navigation-bar{
@@ -25,4 +35,21 @@ a{
   width: 100vw;
   color: #fff;
   background: #000;
+}
+#layer-1{
+  padding: 50px;
+}
+
+#home{
+  color: #fff;
+  background-color: #000;
+  margin: 0 auto;
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+  width:50vw;
+  height:50vh;
+  border-radius: 30px;
 }
