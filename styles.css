@@ -22,7 +22,6 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
   width: 100vw;
   color: #fff;
   background: #000;
