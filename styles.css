@@ -73,15 +73,6 @@ a{
   padding: 50px;
 }
 
-#layer-3, #layer-4{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 30vh;
-  padding: 50px;
-}
 
 #home{
   color: #fff;
@@ -107,6 +98,9 @@ a{
 #quote{
   display:flex;
   flex-direction: column;
+  width: 50vw;
+  height: auto;
+  margin: 0 auto;
 }
 
 #quote .quote-text{
@@ -117,6 +111,15 @@ a{
   text-align: right;
 }
 
+#layer-4, #layer-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+}
+
+
 #call-to-action{
   display: flex;
   justify-content: space-around;
@@ -126,4 +129,17 @@ a{
   width:50vw;
   padding: 2rem;
   color: #fff;
+}
+
+#layer-5{
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer a{
+  font-weight: bold;
+  color:#000;
 }
