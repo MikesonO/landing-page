@@ -73,13 +73,13 @@ a{
   padding: 50px;
 }
 
-#layer-3{
+#layer-3, #layer-4{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 50vh;
+  height: 30vh;
   padding: 50px;
 }
 
@@ -117,4 +117,13 @@ a{
   text-align: right;
 }
 
-
+#call-to-action{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3b81f6;
+  border-radius: 15px;
+  width:50vw;
+  padding: 2rem;
+  color: #fff;
+}
