@@ -52,6 +52,14 @@ a{
   box-shadow: 0px 0px 15px 1px #000000;
 }
 
+.location-text{
+  text-align: center;
+}
+
+.location-icon{
+  margin-right: 7.5px;
+}
+
 /* ID SELECTORS */
 #navigation-bar{
   display: flex;
