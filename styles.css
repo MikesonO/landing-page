@@ -33,13 +33,14 @@ a {
   line-height: 5px;
 }
 
-.home-para{
+.home-para {
   font-size: 1.25rem;
   font-weight: 400;
 }
 
 .home-btn {
   color: #fff;
+  font-size: 1.5rem;
   border: 2.5px solid #fff;
   background-color: transparent;
   background-image: linear-gradient(to right, transparent 50%, #fff 50%);
@@ -55,6 +56,27 @@ a {
 .home-btn:hover {
   color: black;
   box-shadow: inset 400px 0 0 0 #fff;
+}
+
+
+.links {
+  padding: 0 5px;
+  position: relative;
+}
+
+.links::after {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.links:hover::after {
+  width: 100%;
 }
 
 .background-container {
@@ -107,12 +129,12 @@ a {
   position: fixed;
 }
 
-.nav-container{
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 12.8vw;
-  
+
 }
 
 #layer-1 {
