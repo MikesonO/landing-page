@@ -1,3 +1,10 @@
+/* COLORS */
+:root{
+  --white: #fff;
+  --black: #000;
+  --yellow: #FFD700;
+}
+
 /* TYPE SELECTOR */
 body {
   margin: 0;
@@ -9,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
 }
 
 /* CLASS SELECTOR */
@@ -39,23 +46,23 @@ a {
 }
 
 .home-btn {
-  color: #fff;
+  color: var(--white);
   font-size: 1.5rem;
-  border: 2.5px solid #fff;
+  border: 2.5px solid var(--white);
   background-color: transparent;
-  background-image: linear-gradient(to right, transparent 50%, #fff 50%);
+  background-image: linear-gradient(to right, transparent 50%, var(--white) 50%);
   background-size: 200%;
   background-position: 0%;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 #fff;
+  box-shadow: inset 0 0 0 0 var(--white);
   transition: ease-out 0.4s;
 }
 
 .home-btn:hover {
-  color: black;
-  box-shadow: inset 400px 0 0 0 #fff;
+  color: var(--black);
+  box-shadow: inset 400px 0 0 0 var(--white);
 }
 
 
@@ -67,7 +74,7 @@ a {
 .links::after {
   position: absolute;
   content: "";
-  background-color: #fff;
+  background-color: var(--yellow);
   height: 3px;
   width: 0%;
   left: 0;
@@ -77,6 +84,10 @@ a {
 
 .links:hover::after {
   width: 100%;
+}
+
+.yellow-gold{
+  color: var(--yellow)
 }
 
 .background-container {
@@ -124,7 +135,7 @@ a {
 /* ID SELECTORS */
 #navigation-bar {
   width: 100vw;
-  color: #fff;
+  color: var(--white);
   background-image: linear-gradient(180deg, #00000080, transparent);
   position: fixed;
 }
@@ -143,7 +154,7 @@ a {
 
 
 #home {
-  color: #fff;
+  color: var(--white);
   margin: 0 auto;
   padding: 60px;
   display: flex;
@@ -190,11 +201,11 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3b81f6;
+  background-color: var(--yellow);
   border-radius: 15px;
   width: 50vw;
   padding: 2rem;
-  color: #fff;
+  color: var(--white);
 }
 
 #layer-5 {
@@ -207,5 +218,5 @@ a {
 
 #footer a {
   font-weight: bold;
-  color: #000;
+  color: var(--black);
 }
