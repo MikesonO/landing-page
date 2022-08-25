@@ -27,6 +27,40 @@ a{
   width: 250px;
 }
 
+.home-title {
+  font-size: 4rem;
+  line-height: 5px;
+}
+
+
+.home-btn{
+  color: #fff;
+  border: 2.5px solid #fff;
+  background-color: transparent;
+  background-image: linear-gradient(to right, transparent 50%, #fff 50%);
+  background-size: 200%;
+  background-position: 0%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #fff;
+  transition: ease-out 0.4s;
+}
+
+.home-btn:hover {
+  color: black;
+  box-shadow: inset 400px 0 0 0 #fff;
+}
+
+.background-container{
+  height: 100%;
+  width: 100vw;
+  background-image: url("./images/mountains.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .location-title{
   text-align: center;
   margin-bottom: 60px;
@@ -67,7 +101,8 @@ a{
   align-items: center;
   width: 100vw;
   color: #fff;
-  background: #000;
+  background-image: linear-gradient(180deg, #00000080, transparent);
+  padding-bottom: 80px;
 }
 #layer-1{
   padding: 50px;
@@ -76,16 +111,13 @@ a{
 
 #home{
   color: #fff;
-  background-color: #000;
   margin: 0 auto;
   padding: 60px;
   display: flex;
-  justify-content: space-around;
+  justify-content:flex-start;
   align-items: center;
-  gap: 100px;
-  width:50vw;
-  height:50vh;
-  border-radius: 30px;
+  width: 75vw;
+  height: 50vh;
 }
 
 #location{
