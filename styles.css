@@ -4,6 +4,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
