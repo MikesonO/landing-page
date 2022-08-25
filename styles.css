@@ -46,9 +46,10 @@ a {
 }
 
 .home-btn {
+  margin-top: 20px;
   color: var(--white);
   font-size: 1.5rem;
-  border: 2.5px solid var(--white);
+  border: 2.5px solid var(--yellow);
   background-color: transparent;
   background-image: linear-gradient(to right, transparent 50%, var(--white) 50%);
   background-size: 200%;
@@ -56,13 +57,13 @@ a {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: inset 0 0 0 0 var(--white);
+  box-shadow: inset 0 0 0 0 var(--yellow);
   transition: ease-out 0.4s;
 }
 
 .home-btn:hover {
-  color: var(--black);
-  box-shadow: inset 400px 0 0 0 var(--white);
+  color: var(--white);
+  box-shadow: inset 400px 0 0 0 var(--yellow);
 }
 
 
@@ -130,13 +131,14 @@ a {
 
 .location-icon {
   margin-right: 7.5px;
+  color: var(--yellow);
 }
 
 /* ID SELECTORS */
 #navigation-bar {
   width: 100vw;
   color: var(--white);
-  background-image: linear-gradient(180deg, #00000080, transparent);
+  background-image: linear-gradient(180deg, #00000080, #00000040, transparent);
   position: fixed;
 }
 
