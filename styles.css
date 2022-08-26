@@ -1,5 +1,5 @@
 /* COLORS */
-:root{
+:root {
   --white: #fff;
   --black: #000;
   --yellow: #FFD700;
@@ -46,7 +46,7 @@ a {
   font-weight: 400;
 }
 
-.home-btn{
+.home-btn {
   margin-top: 20px;
   color: var(--white);
   font-size: 1.5rem;
@@ -88,16 +88,16 @@ a {
   width: 100%;
 }
 
-.yellow-gold{
+.yellow-gold {
   color: var(--yellow)
 }
 
-.shadow-effect, 
-#navigation-bar,ß
-#layer-1,
+.shadow-effect,
+#navigation-bar,
+ß #layer-1,
 #layer-3,
 #layer-4,
-#layer-5{
+#layer-5 {
   text-shadow: var(--shadow);
 }
 
@@ -140,14 +140,14 @@ a {
 
 }
 
-.places:hover{
+.places:hover {
   transform: scale(1.15);
-  z-index:2;
+  z-index: 2;
 }
 
 .location-text {
-  font-size:1.25rem;
-  margin-top:30px;
+  font-size: 1.25rem;
+  margin-top: 30px;
   color: var(--black)
 }
 
@@ -157,7 +157,7 @@ a {
   text-shadow: 0px 0px 1px #000000;
 }
 
-.cta-btn button{
+.cta-btn button {
   color: var(--yellow);
   font-size: 1.5rem;
   border: none;
@@ -174,17 +174,17 @@ a {
   box-shadow: inset 0 -6px 0 0 rgb(0, 0, 0, 0.2);
 }
 
-.cta-btn button:active{
+.cta-btn button:active {
   box-shadow: inset 0 -1px 0 0 rgb(0, 0, 0, 0.2);
   text-shadow: 0px 1px rgb(0, 0, 0, 0.2);
 }
 
-.cta-text h3{
-  font-size:1.5rem;
+.cta-text h3 {
+  font-size: 1.5rem;
 }
 
-.cta-text p{
-  font-size:1.25rem;
+.cta-text p {
+  font-size: 1.25rem;
   width: 75%;
 }
 
@@ -251,7 +251,7 @@ a {
   font-size: 2rem;
   color: var(--white);
   display: inline-block;
-  
+
 }
 
 #layer-4,
@@ -263,7 +263,7 @@ a {
   width: 100vw;
 }
 
-#layer-4{
+#layer-4 {
   background-color: #ffffffB3;
   border-top: 5px solid var(--yellow);
   border-bottom: 5px solid var(--yellow);
@@ -274,7 +274,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(var(--yellow),#00000080);
+  background-image: linear-gradient(var(--yellow), #00000080);
   border-radius: 15px;
   width: 50vw;
   padding: 2rem;
