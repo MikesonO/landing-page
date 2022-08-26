@@ -3,7 +3,7 @@
 I created a Landing Page for The Odin Project. I had a lot of fun building this one, I struggled a lot with the design but I think it turned out okay. I plan to revisit it in the future to make it more responsive! 
 <h2> Links</h2>
 <ul>
-  <li><a href="https://mikesono.github.io/landing-page/">Try it out</a></li>
+  <li><a href="https://mikesono.github.io/landing-page/">Check it out</a></li>
   <li><a href="https://www.theodinproject.com/lessons/foundations-landing-page">Link to Assignment</a></li>
 </ul>
 <h2>Pictures</h2>
